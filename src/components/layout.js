@@ -9,23 +9,22 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
+      <Link
+        stle={{
+          boxShadow: `none`,
         }}
+        to={`/`}
       >
-        <Link
+        <h1
           style={{
-            boxShadow: `none`,
-            color: `inherit`,
+            ...scale(1.5),
+            marginBottom: rhythm(1.5),
+            marginTop: 0,
           }}
-          to={`/`}
         >
           {title}
-        </Link>
-      </h1>
+        </h1>
+      </Link>
     )
   } else {
     header = (
@@ -38,7 +37,6 @@ const Layout = ({ location, title, children }) => {
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
           }}
           to={`/`}
         >
@@ -59,9 +57,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()},
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://github.com/arsharaj">Arsharaj Chauhan</a>
       </footer>
     </div>
   )
