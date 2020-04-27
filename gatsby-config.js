@@ -3,7 +3,7 @@ module.exports = {
     title: `Arsharaj Chauhan Blogs`,
     author: {
       name: `Arsharaj Chauhan`,
-      summary: `Computer Science Enthusiast`,
+      summary: `Computer Science Freak`,
     },
     description: `Explore the world of Computer Science with me.`,
     siteUrl: `https://arsharajchauhan.github.io/blogs`,
