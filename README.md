@@ -4,6 +4,6 @@
 
 **Explore the world of Computer Science with me.**
 
+[Website](https://arsharaj-blogs.netlify.app)
 [Github](https://github.com/arsharaj)
-[Gitlab](https://gitlab.com/arsharaj)
 [Twitter](https://twitter.com/arsharajchauhan)
